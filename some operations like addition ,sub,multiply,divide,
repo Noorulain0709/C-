@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+int main ()
+	{
+	int a=4;
+	int b=10; 	
+	int c = b/a;
+	cout << "C = " << c;
+	return 0;
+ 	}
+	//Write a program which has all the mathematical operators?
+//+, -, /, %
+#include<iostream>
+using namespace std;
+int main()
+{
+  int a,b;
+  char oper;
+  cout<<"please enter a number:";
+  cin>>a;
+  cout<<"enter operation:";
+  cin>>oper;
+  cout<<"enter another number:";
+  cin>>b;
+  if (oper=='+')
+  {cout<<"your ans is:"<<a+b<<endl;}
+  else if (oper=='-')
+  {cout<<"your ans is:"<<a-b<<endl;}
+  else if (oper=='*')
+  {cout<<"your ans is:"<<a*b<<endl;}
+  else
+  {cout<<"your ans is:"<<a%b<<endl;}
+  return 0;
+}
+
+
+
