@@ -1,0 +1,19 @@
+//Write a program to add 5 integers an print the result. [inputs are provided by the user]
+ //Also, print the average of these values at the end and print the result?
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c,d,e;
+    int total_sum=0;
+    float average=1;
+    cout<<"enter at least five numbers"<<endl;
+    cin>>a>>b>>c>>d>>e;
+    total_sum=a+b+c+d+e;
+    cout<<"total sum of these numbers is:"<<total_sum<<endl;
+    average=total_sum/5.0;
+    cout<<"average of these nummbers is"<<average;
+    return 0;
+    
+}
