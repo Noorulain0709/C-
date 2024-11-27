@@ -1,0 +1,17 @@
+//write a program to define pays of worker
+#include<iostream>
+using namespace std;
+int main()
+{
+    int hour,rate,pay;
+    //how many hour do you work
+    cout<<"enter your working hour ";
+    cin>>hour;
+    //how will you get of one hour working;
+    cout<<"enter rate per hour";
+    cin>>rate;
+    //pay calculate
+    pay=rate*hour;
+    cout<<"your pay will be :"<<pay;
+    return 0;
+}
