@@ -1,0 +1,14 @@
+//Write a program to add 5 integers an print the result. [inputs are provided by the user]
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c,d,e;
+    int total_sum=0;
+    cout<<"enter at least five numbers"<<endl;
+    cin>>a>>b>>c>>d>>e;
+    total_sum=a+b+c+d+e;
+    cout<<"total sum of these numbers is:"<<total_sum;
+    return 0;
+    
+}
