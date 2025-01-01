@@ -1,0 +1,21 @@
+//loan application
+#include<iostream>
+using namespace std;
+int main()
+{
+    char employe;
+    char grade;
+    cout<<"answer the following question if you want loan"<<endl;
+    cout<<"y for yes and n for no"<<endl;
+    cout<<"if ther is any false information then you will be fired from this job"<<endl;
+    cout<<"and you become a crimainal"<<endl;
+    cout<<"are you a employed"<<endl;
+    cin>>employe;
+    if (employe=='y')
+   { cout<<"is your grade is greater then 17"<<endl;
+     cin>>employe;
+      if (employe=='y')
+       {cout <<"you  are qualified for that"<<endl;}
+       return 0;
+   }
+}
