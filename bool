@@ -1,0 +1,24 @@
+//simple bool expression
+#include <iostream>
+using namespace std;
+int main()
+{
+    bool boolvalue;
+    boolvalue=true;
+    cout<<boolvalue<<endl;
+    boolvalue=false;
+    cout<<boolvalue;
+    return 0;
+}
+//another
+#include <iostream>
+using namespace std;
+int main()
+{
+    //let you wany to take bath or not
+    bool takebath;
+    cout<<"are you want to take this ";
+    cin>>takebath;
+    cout<<takebath;
+    return 0;
+}
