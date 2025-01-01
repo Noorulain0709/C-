@@ -1,0 +1,28 @@
+//print all numbers between then and when it been end then write no more to write
+#include<iostream>
+using namespace std;
+int main()
+{
+    int number;
+    for(number=1;number<10;number++)
+    {
+        cout<<"hello i am here"<<endl;
+        cout<<"contect me"<<endl;
+    }
+    cout<<"no more to write"<<endl;
+    return 0;
+}
+//program display number and there square
+#include<iostream>
+using namespace std;
+int main()
+{
+    int number,square;
+    for (number=1;number<=5;number++)
+    {
+        cout<<"your number is : "<<number<<endl;
+        square=number*number;
+        cout<<"your number's square : "<<square<<endl;
+    }
+    return 0;
+}
